@@ -1,0 +1,153 @@
+{
+  "verified_as_of": "2026-10-19",
+  "scope": "Nine campaign PRs merged upstream since 2 October 2026; personal and historical merges are excluded.",
+  "merged_prs": [
+    {
+      "repository": "ohmyzsh/ohmyzsh",
+      "number": 14152,
+      "title": "fix(extract): preserve bzip2 archives and honor extraction destination",
+      "url": "https://github.com/ohmyzsh/ohmyzsh/pull/14152",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-09T14:01:27Z",
+      "merge_sha": "d7aca552b3f04e493c29117870f46cf9bd35957d",
+      "merged_by": "robbyrussell",
+      "files": [
+        "plugins/extract/extract.plugin.zsh"
+      ],
+      "approvals": [
+        "robbyrussell"
+      ]
+    },
+    {
+      "repository": "TheAlgorithms/Python",
+      "number": 15483,
+      "title": "Fix consumed character tracking in Jaro-Winkler matching",
+      "url": "https://github.com/TheAlgorithms/Python/pull/15483",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-03T07:24:27Z",
+      "merge_sha": "ef2ecc4d34d17ce6249ba5d3f3c17822dfd7bd50",
+      "merged_by": "cclauss",
+      "files": [
+        "strings/jaro_winkler.py"
+      ],
+      "approvals": [
+        "cclauss"
+      ]
+    },
+    {
+      "repository": "TheAlgorithms/Python",
+      "number": 15484,
+      "title": "Stop bidirectional A* when either frontier is empty",
+      "url": "https://github.com/TheAlgorithms/Python/pull/15484",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-03T05:54:24Z",
+      "merge_sha": "29f9da7f202a3909e6156b65a36ebca4d04001f9",
+      "merged_by": "cclauss",
+      "files": [
+        "graphs/bidirectional_a_star.py"
+      ],
+      "approvals": [
+        "cclauss"
+      ]
+    },
+    {
+      "repository": "TheAlgorithms/Python",
+      "number": 15485,
+      "title": "Fix maximum Fenwick tree range values after updates",
+      "url": "https://github.com/TheAlgorithms/Python/pull/15485",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-03T07:20:53Z",
+      "merge_sha": "875082adbcc8a197fe98e948df57194ee8a78e6d",
+      "merged_by": "cclauss",
+      "files": [
+        "data_structures/binary_tree/maximum_fenwick_tree.py"
+      ],
+      "approvals": [
+        "cclauss",
+        "cclauss"
+      ]
+    },
+    {
+      "repository": "fatedier/frp",
+      "number": 5555,
+      "title": "fix: rotate daily counters by calendar date across DST",
+      "url": "https://github.com/fatedier/frp/pull/5555",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-09T12:13:04Z",
+      "merge_sha": "ab0959868ad8848aa15861f66f6fb30f0814f529",
+      "merged_by": "fatedier",
+      "files": [
+        "pkg/util/metric/date_counter.go",
+        "pkg/util/metric/date_counter_test.go"
+      ],
+      "approvals": []
+    },
+    {
+      "repository": "fatedier/frp",
+      "number": 5556,
+      "title": "fix(vhost): preserve buffered HTTP CONNECT tunnel data",
+      "url": "https://github.com/fatedier/frp/pull/5556",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-09T15:07:49Z",
+      "merge_sha": "9c7d9898b319215823274f40fa70bb12f0aa99c8",
+      "merged_by": "fatedier",
+      "files": [
+        "pkg/util/vhost/http.go",
+        "pkg/util/vhost/http_test.go"
+      ],
+      "approvals": []
+    },
+    {
+      "repository": "mrdoob/three.js",
+      "number": 34806,
+      "title": "ColorConverter: Fix HSV conversion at black and white boundaries.",
+      "url": "https://github.com/mrdoob/three.js/pull/34806",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-05T12:51:36Z",
+      "merge_sha": "1e721b192009fbdd880bd1b2609ab10559045371",
+      "merged_by": "Mugen87",
+      "files": [
+        "examples/jsm/math/ColorConverter.js",
+        "test/unit/addons/math/ColorConverter.tests.js",
+        "test/unit/three.addons.unit.js"
+      ],
+      "approvals": [
+        "Mugen87"
+      ]
+    },
+    {
+      "repository": "mrdoob/three.js",
+      "number": 34809,
+      "title": "PCDLoader: Respect COUNT when locating ASCII fields.",
+      "url": "https://github.com/mrdoob/three.js/pull/34809",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-05T20:50:45Z",
+      "merge_sha": "28ed5739ce6c099f32704e8ddc5a1147c3aa2b1a",
+      "merged_by": "Mugen87",
+      "files": [
+        "examples/jsm/loaders/PCDLoader.js"
+      ],
+      "approvals": [
+        "Mugen87"
+      ]
+    },
+    {
+      "repository": "mrdoob/three.js",
+      "number": 34814,
+      "title": "Octree: Preserve configured subdivision limits.",
+      "url": "https://github.com/mrdoob/three.js/pull/34814",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-06T09:52:05Z",
+      "merge_sha": "00887e72c0d39a90bb5ce66eb6935147eb4cd5e4",
+      "merged_by": "Mugen87",
+      "files": [
+        "examples/jsm/math/Octree.js",
+        "test/unit/addons/math/Octree.tests.js",
+        "test/unit/three.addons.unit.js"
+      ],
+      "approvals": [
+        "Mugen87"
+      ]
+    }
+  ]
+}
