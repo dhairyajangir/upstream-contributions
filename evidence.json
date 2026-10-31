@@ -1,6 +1,6 @@
 {
-  "verified_as_of": "2026-10-19",
-  "scope": "Nine campaign PRs merged upstream since 2 October 2026; personal and historical merges are excluded.",
+  "verified_as_of": "2026-10-31",
+  "scope": "Twelve campaign PRs merged upstream since 2 October 2026; personal and historical merges are excluded. Phoenix #1045 was discovered during this verification after it had already merged, not submitted in this phase.",
   "merged_prs": [
     {
       "repository": "ohmyzsh/ohmyzsh",
@@ -148,6 +148,61 @@
       "approvals": [
         "Mugen87"
       ]
+    },
+    {
+      "repository": "microsoft/vscode",
+      "number": 339846,
+      "title": "Fix UTF-8 encoding of MCP resource URI template values",
+      "url": "https://github.com/microsoft/vscode/pull/339846",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-22T01:59:58Z",
+      "merge_sha": "070abe7cd0e6434522949ad924c2e008c2300fe3",
+      "merged_by": "connor4312",
+      "files": [
+        "src/vs/base/common/uriTemplate.ts",
+        "src/vs/base/test/common/uriTemplate.test.ts"
+      ],
+      "approvals": [
+        "connor4312",
+        "roblourens",
+        "roblourens",
+        "anthonykim1"
+      ]
+    },
+    {
+      "repository": "thedotmack/claude-mem",
+      "number": 4876,
+      "title": "fix: match zero directories in intermediate globstars",
+      "url": "https://github.com/thedotmack/claude-mem/pull/4876",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-19T06:42:10Z",
+      "merge_sha": "c9b79ecdaa7fe1950cb921603c65b57f6a41eebe",
+      "merged_by": "thedotmack",
+      "files": [
+        "docs/public/configuration.mdx",
+        "src/utils/project-filter.ts",
+        "tests/utils/project-environments.test.ts",
+        "tests/utils/project-filter.test.ts"
+      ],
+      "approvals": []
+    },
+    {
+      "repository": "HSF/phoenix",
+      "number": 1045,
+      "title": "fix(event-display): restore cell color when disabling selection",
+      "url": "https://github.com/HSF/phoenix/pull/1045",
+      "author": "dhairyajangir",
+      "merged_at": "2026-10-25T17:02:21Z",
+      "merge_sha": "4fbd3790aa79573018ca3b4c29b9a22b9309b1f0",
+      "merged_by": "EdwardMoyse",
+      "files": [
+        "packages/phoenix-event-display/src/managers/three-manager/selection-manager.ts",
+        "packages/phoenix-event-display/src/tests/managers/three-manager/selection-manager.test.ts"
+      ],
+      "approvals": [],
+      "discovered_in_audit_on": "2026-10-31",
+      "repository_stars_at_verification": 88,
+      "high_star_submission": false
     }
   ]
 }
