@@ -26,6 +26,10 @@ The thirteen entries above are upstream merges from the campaign beginning 2 Oct
 
 Accepted contributions do not imply employment, project membership or endorsement. Individual PR acceptance does not establish approval of other contributions.
 
+## Campaign checkpoint
+
+[10 November 2026 status and deadline scenarios](status/2026-11-10.md)
+
 ## Verification
 
 [evidence.json](evidence.json) records the public merge timestamps, actual merge SHAs, files, merger identities and formal approvals when present. Case studies distinguish tests retained in the final merge from validation supplied during review.
