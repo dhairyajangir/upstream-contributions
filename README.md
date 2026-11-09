@@ -1,8 +1,8 @@
 # Accepted upstream contributions
 
-I am Dhairya Jangir ([@dhairyajangir](https://github.com/dhairyajangir)). This index explains twelve accepted bug fixes across Python, JavaScript, TypeScript, Go and Zsh, verified against their upstream merge records on 31 October 2026.
+I am Dhairya Jangir ([@dhairyajangir](https://github.com/dhairyajangir)). This index explains thirteen accepted bug fixes across Python, JavaScript, TypeScript, Go and Zsh. The latest addition was verified against its upstream merge on 10 November 2026.
 
-Each entry links the actual merged PR, its merge commit and a short case study of the problem, implementation and validation. The ten case studies cover twelve PRs because the three Python algorithm fixes share one article.
+Each entry links a merged PR and a short case study of the problem, implementation and validation. The eleven case studies cover thirteen PRs because the three Python algorithm fixes share one article.
 
 | Project | Accepted change | Merged (UTC) | Case study |
 | --- | --- | --- | --- |
@@ -18,10 +18,11 @@ Each entry links the actual merged PR, its merge commit and a short case study o
 | thedotmack/claude-mem | [Match zero directories in intermediate globstars](https://github.com/thedotmack/claude-mem/pull/4876) | 2026-10-19 | [Read](case-studies/claude-mem-zero-directory-globstars.md) |
 | microsoft/vscode | [Fix UTF-8 encoding of MCP resource URI template values](https://github.com/microsoft/vscode/pull/339846) | 2026-10-22 | [Read](case-studies/vscode-unicode-uri-templates.md) |
 | HSF/phoenix | [Restore cell color when disabling selection](https://github.com/HSF/phoenix/pull/1045) | 2026-10-25 | [Read](case-studies/phoenix-selection-cell-color.md) |
+| HSF/phoenix | [Release label resources on removal, replacement and event clear](https://github.com/HSF/phoenix/pull/1051) | 2026-11-01 | [Read](case-studies/phoenix-label-resource-lifecycle.md) |
 
 ## What is counted
 
-The twelve entries above are upstream merges from the campaign beginning 2 October 2026. Open PRs, drafts, closed-unmerged PRs, personal repositories and earlier historical merges are outside this index’s count. Creating or maintaining this portfolio repository adds zero upstream merge credit.
+The thirteen entries above are upstream merges from the campaign beginning 2 October 2026. Open PRs, drafts, closed-unmerged PRs, personal repositories and earlier historical merges are outside this index’s count. Creating or maintaining this portfolio repository adds zero upstream merge credit.
 
 Accepted contributions do not imply employment, project membership or endorsement. Individual PR acceptance does not establish approval of other contributions.
 

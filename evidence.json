@@ -1,6 +1,6 @@
 {
-  "verified_as_of": "2026-10-31",
-  "scope": "Twelve campaign PRs merged upstream since 2 October 2026; personal and historical merges are excluded. Phoenix #1045 was discovered during this verification after it had already merged, not submitted in this phase.",
+  "verified_as_of": "2026-11-10",
+  "scope": "Thirteen campaign PRs merged upstream since 2 October 2026. Personal and historical merges are excluded. The original twelve entries were verified on 31 October; Phoenix #1051 was verified on 10 November.",
   "merged_prs": [
     {
       "repository": "ohmyzsh/ohmyzsh",
@@ -203,6 +203,23 @@
       "discovered_in_audit_on": "2026-10-31",
       "repository_stars_at_verification": 88,
       "high_star_submission": false
+    },
+    {
+      "repository": "HSF/phoenix",
+      "number": 1051,
+      "title": "fix(event-display): release resources when removing labels",
+      "url": "https://github.com/HSF/phoenix/pull/1051",
+      "author": "dhairyajangir",
+      "merged_at": "2026-11-01T17:28:49Z",
+      "merge_sha": "b2ae18218b6d63addbcb9b5c9abf253d00e450d2",
+      "merged_by": "EdwardMoyse",
+      "files": [
+        "packages/phoenix-event-display/src/managers/three-manager/scene-manager.ts",
+        "packages/phoenix-event-display/src/tests/managers/three-manager/label-lifecycle.test.ts"
+      ],
+      "approvals": [],
+      "verified_on": "2026-11-10",
+      "maintainer_comment": "https://github.com/HSF/phoenix/pull/1051#issuecomment-6561381954"
     }
   ]
 }
