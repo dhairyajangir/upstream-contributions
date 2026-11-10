@@ -1,6 +1,6 @@
 {
   "verified_as_of": "2026-11-10",
-  "scope": "Thirteen campaign PRs merged upstream since 2 October 2026. Personal and historical merges are excluded. The original twelve entries were verified on 31 October; Phoenix #1051 was verified on 10 November.",
+  "scope": "Fourteen campaign PRs merged upstream since 2 October 2026. Personal and historical merges are excluded. The original twelve entries were verified on 31 October; Phoenix #1051 and Three.js #35423 were verified on 10 November.",
   "merged_prs": [
     {
       "repository": "ohmyzsh/ohmyzsh",
@@ -220,6 +220,27 @@
       "approvals": [],
       "verified_on": "2026-11-10",
       "maintainer_comment": "https://github.com/HSF/phoenix/pull/1051#issuecomment-6561381954"
+    },
+    {
+      "repository": "mrdoob/three.js",
+      "number": 35423,
+      "title": "BufferGeometryUtils: Handle missing normals in computeMorphedAttributes().",
+      "url": "https://github.com/mrdoob/three.js/pull/35423",
+      "author": "dhairyajangir",
+      "merged_at": "2026-11-10T09:15:53Z",
+      "merge_sha": "c480172072a627207cff03c73bda79c67c97114d",
+      "merged_by": "Mugen87",
+      "files": [
+        "examples/jsm/utils/BufferGeometryUtils.js"
+      ],
+      "approvals": [
+        "Mugen87"
+      ],
+      "co_authors": [
+        "Michael Herzog"
+      ],
+      "verified_on": "2026-11-10",
+      "note": "Maintainer revised source and removed proposed tests before merge."
     }
   ]
 }
