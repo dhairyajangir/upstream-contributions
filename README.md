@@ -31,6 +31,10 @@ Accepted contributions do not imply employment, project membership or endorsemen
 
 On [MarkItDown #2178](https://github.com/microsoft/markitdown/pull/2178), I [suggested a regression test](https://github.com/microsoft/markitdown/pull/2178#issuecomment-6761134119) for transcript-list failures dropping video metadata. The PR author added eight mocked cases and [acknowledged the suggestion](https://github.com/microsoft/markitdown/pull/2178#issuecomment-6767838751). As of 10 November 2026, the PR remains open and is another contributor's work; it is not included in the merge count above.
 
+## Issue reporting
+
+I reported [Dify #43782](https://github.com/langgenius/dify/issues/43782), where a repository component-test reproduction showed JSON example imports could skip the existing depth limit for objects inside arrays. [Redestiny’s #44295](https://github.com/langgenius/dify/pull/44295) addressed the issue and merged on 21 October 2026; the issue report and that other contributor’s fix are not included in the merge count above.
+
 ## Campaign checkpoint
 
 [10 November 2026 status and deadline scenarios](status/2026-11-10.md)
