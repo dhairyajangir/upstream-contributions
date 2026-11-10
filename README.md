@@ -27,6 +27,10 @@ The fourteen entries above are upstream merges from the campaign beginning 2 Oct
 
 Accepted contributions do not imply employment, project membership or endorsement. Individual PR acceptance does not establish approval of other contributions.
 
+## Review collaboration
+
+On [MarkItDown #2178](https://github.com/microsoft/markitdown/pull/2178), I [suggested a regression test](https://github.com/microsoft/markitdown/pull/2178#issuecomment-6761134119) for transcript-list failures dropping video metadata. The PR author added eight mocked cases and [acknowledged the suggestion](https://github.com/microsoft/markitdown/pull/2178#issuecomment-6767838751). As of 10 November 2026, the PR remains open and is another contributor's work; it is not included in the merge count above.
+
 ## Campaign checkpoint
 
 [10 November 2026 status and deadline scenarios](status/2026-11-10.md)
