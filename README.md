@@ -1,8 +1,8 @@
 # Accepted upstream contributions
 
-I am Dhairya Jangir ([@dhairyajangir](https://github.com/dhairyajangir)). This index explains fourteen accepted bug fixes across Python, JavaScript, TypeScript, Go and Zsh. The latest addition was verified against its upstream merge on 10 November 2026.
+I am Dhairya Jangir ([@dhairyajangir](https://github.com/dhairyajangir)). This index explains seventeen accepted bug fixes across Python, JavaScript, TypeScript, C++, Go and Zsh. The latest additions were verified against their upstream merges on 11 November 2026.
 
-Each entry links a merged PR and a short case study of the problem, implementation and validation. The twelve case studies cover fourteen PRs because the three Python algorithm fixes share one article.
+Each entry links a merged PR and a short case study of the problem, implementation and validation. The fifteen case studies cover seventeen PRs because the three Python algorithm fixes share one article.
 
 | Project | Accepted change | Merged (UTC) | Case study |
 | --- | --- | --- | --- |
@@ -20,12 +20,17 @@ Each entry links a merged PR and a short case study of the problem, implementati
 | HSF/phoenix | [Restore cell color when disabling selection](https://github.com/HSF/phoenix/pull/1045) | 2026-10-25 | [Read](case-studies/phoenix-selection-cell-color.md) |
 | HSF/phoenix | [Release label resources on removal, replacement and event clear](https://github.com/HSF/phoenix/pull/1051) | 2026-11-01 | [Read](case-studies/phoenix-label-resource-lifecycle.md) |
 | mrdoob/three.js | [Handle missing normals when computing morphed attributes](https://github.com/mrdoob/three.js/pull/35423) | 2026-11-10 | [Read](case-studies/three-morphed-attributes-missing-normals.md) |
+| mavlink/MAVSDK | [Accept generated return-to-launch parameters on ArduPilot](https://github.com/mavlink/MAVSDK/pull/3213) | 2026-11-10 | [Read](case-studies/mavsdk-ardupilot-rtl.md) |
+| mavlink/MAVSDK | [Defer a mode-list refresh until the active request completes](https://github.com/mavlink/MAVSDK/pull/3214) | 2026-11-10 | [Read](case-studies/mavsdk-mode-refresh.md) |
+| HSF/phoenix | [Skip saved labels without a target in the current event](https://github.com/HSF/phoenix/pull/1063) | 2026-11-11 | [Read](case-studies/phoenix-missing-label-target.md) |
 
 ## What is counted
 
-The fourteen entries above are upstream merges from the campaign beginning 2 October 2026. Open PRs, drafts, closed-unmerged PRs, personal repositories and earlier historical merges are outside this index’s count. Creating or maintaining this portfolio repository adds zero upstream merge credit.
+The seventeen entries above are upstream merges from the campaign beginning 2 October 2026. Open PRs, drafts, closed-unmerged PRs, personal repositories and earlier historical merges are outside this index’s count. Creating or maintaining this portfolio repository adds zero upstream merge credit.
 
 Accepted contributions do not imply employment, project membership or endorsement. Individual PR acceptance does not establish approval of other contributions.
+
+The maintainer-created squash commits for MAVSDK #3213, MAVSDK #3214 and Phoenix #1063 record a different author email from the preferred contribution email. The PRs are attributed to the GitHub account above; the upstream commit metadata is preserved.
 
 ## Review collaboration
 
@@ -37,7 +42,7 @@ I reported [Dify #43782](https://github.com/langgenius/dify/issues/43782), where
 
 ## Campaign checkpoint
 
-[10 November 2026 status and deadline scenarios](status/2026-11-10.md)
+[11 November 2026 status and deadline scenarios](status/2026-11-11.md) · [10 November checkpoint](status/2026-11-10.md)
 
 ## Verification
 

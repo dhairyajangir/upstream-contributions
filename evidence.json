@@ -1,6 +1,6 @@
 {
-  "verified_as_of": "2026-11-10",
-  "scope": "Fourteen campaign PRs merged upstream since 2 October 2026. Personal and historical merges are excluded. The original twelve entries were verified on 31 October; Phoenix #1051 and Three.js #35423 were verified on 10 November.",
+  "verified_as_of": "2026-11-11",
+  "scope": "Seventeen campaign PRs merged upstream since 2 October 2026. Personal and historical merges are excluded. The first fourteen entries were verified by 10 November; MAVSDK #3213, MAVSDK #3214 and Phoenix #1063 were verified on 11 November.",
   "merged_prs": [
     {
       "repository": "ohmyzsh/ohmyzsh",
@@ -241,6 +241,63 @@
       ],
       "verified_on": "2026-11-10",
       "note": "Maintainer revised source and removed proposed tests before merge."
+    },
+    {
+      "repository": "mavlink/MAVSDK",
+      "number": 3213,
+      "title": "mission: accept generated RTL on ArduPilot",
+      "url": "https://github.com/mavlink/MAVSDK/pull/3213",
+      "author": "dhairyajangir",
+      "merged_at": "2026-11-10T21:19:24Z",
+      "merge_sha": "fc2bd5dda3d4e02ed10d0f47cb6cf34d5a0ad982",
+      "merged_by": "julianoes",
+      "files": [
+        "cpp/src/mavsdk/plugins/mission/mission_impl.cpp",
+        "cpp/src/system_tests/CMakeLists.txt",
+        "cpp/src/system_tests/mission_upload_rtl.cpp"
+      ],
+      "approvals": [
+        "JonasVautherin"
+      ],
+      "verified_on": "2026-11-11",
+      "note": "The actual squash author email differs from the preferred contribution email. Two exact-head workflows failed; the maintainer merged after review."
+    },
+    {
+      "repository": "mavlink/MAVSDK",
+      "number": 3214,
+      "title": "modes: defer refresh until the active request completes",
+      "url": "https://github.com/mavlink/MAVSDK/pull/3214",
+      "author": "dhairyajangir",
+      "merged_at": "2026-11-10T21:37:43Z",
+      "merge_sha": "3eea18ca99edc7a0087e0e5e4b2bffbcfb376b28",
+      "merged_by": "julianoes",
+      "files": [
+        "cpp/src/mavsdk/plugins/modes/modes_impl.cpp",
+        "cpp/src/mavsdk/plugins/modes/modes_impl.hpp",
+        "cpp/src/system_tests/modes.cpp"
+      ],
+      "approvals": [
+        "julianoes"
+      ],
+      "verified_on": "2026-11-11",
+      "note": "The actual squash author email differs from the preferred contribution email. A separate multi-instance probe remains an unconfirmed observation."
+    },
+    {
+      "repository": "HSF/phoenix",
+      "number": 1063,
+      "title": "fix(event-display): skip saved labels without a current target",
+      "url": "https://github.com/HSF/phoenix/pull/1063",
+      "author": "dhairyajangir",
+      "merged_at": "2026-11-11T08:12:22Z",
+      "merge_sha": "887133ed05c2d5a03af79352f112ea9f74cbbe32",
+      "merged_by": "EdwardMoyse",
+      "files": [
+        "packages/phoenix-event-display/src/managers/ui-manager/index.ts",
+        "packages/phoenix-event-display/src/tests/managers/ui-manager/label-import.test.ts"
+      ],
+      "approvals": [],
+      "verified_on": "2026-11-11",
+      "note": "The actual squash author email differs from the preferred contribution email; no formal approval was recorded."
     }
   ]
 }
