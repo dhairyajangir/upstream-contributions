@@ -1,6 +1,6 @@
 {
   "verified_as_of": "2026-11-11",
-  "scope": "Seventeen campaign PRs merged upstream since 2 October 2026. Personal and historical merges are excluded. The first fourteen entries were verified by 10 November; MAVSDK #3213, MAVSDK #3214 and Phoenix #1063 were verified on 11 November.",
+  "scope": "Eighteen campaign PRs merged upstream since 2 October 2026. Personal and historical merges are excluded. The first seventeen entries were verified by 11 November; HEPData #72 was verified later on 11 November.",
   "merged_prs": [
     {
       "repository": "ohmyzsh/ohmyzsh",
@@ -298,6 +298,25 @@
       "approvals": [],
       "verified_on": "2026-11-11",
       "note": "The actual squash author email differs from the preferred contribution email; no formal approval was recorded."
+    },
+    {
+      "repository": "HEPData/hepdata-converter",
+      "number": 72,
+      "title": "Preserve rows with missing values in CSV exports",
+      "url": "https://github.com/HEPData/hepdata-converter/pull/72",
+      "author": "dhairyajangir",
+      "merged_at": "2026-11-11T16:35:36Z",
+      "merge_sha": "b47043eda0e4b180c6b23538caedeedfb69f3019",
+      "merged_by": "GraemeWatt",
+      "files": [
+        "hepdata_converter/testsuite/test_csvwriter.py",
+        "hepdata_converter/writers/csv_writer.py"
+      ],
+      "approvals": [
+        "GraemeWatt"
+      ],
+      "verified_on": "2026-11-11",
+      "note": "Established scientific-upstream alternate; not an official-corporate or 100k-star merge. Contributor commit uses GitHub noreply instead of the preferred contribution email."
     }
   ]
 }

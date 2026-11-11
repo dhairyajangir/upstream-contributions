@@ -1,8 +1,8 @@
 # Accepted upstream contributions
 
-I am Dhairya Jangir ([@dhairyajangir](https://github.com/dhairyajangir)). This index explains seventeen accepted bug fixes across Python, JavaScript, TypeScript, C++, Go and Zsh. The latest additions were verified against their upstream merges on 11 November 2026.
+I am Dhairya Jangir ([@dhairyajangir](https://github.com/dhairyajangir)). This index explains eighteen accepted bug fixes across Python, JavaScript, TypeScript, C++, Go and Zsh. The latest additions were verified against their upstream merges on 11 November 2026.
 
-Each entry links a merged PR and a short case study of the problem, implementation and validation. The fifteen case studies cover seventeen PRs because the three Python algorithm fixes share one article.
+Each entry links a merged PR and a short case study of the problem, implementation and validation. The sixteen case studies cover eighteen PRs because the three Python algorithm fixes share one article.
 
 | Project | Accepted change | Merged (UTC) | Case study |
 | --- | --- | --- | --- |
@@ -23,14 +23,15 @@ Each entry links a merged PR and a short case study of the problem, implementati
 | mavlink/MAVSDK | [Accept generated return-to-launch parameters on ArduPilot](https://github.com/mavlink/MAVSDK/pull/3213) | 2026-11-10 | [Read](case-studies/mavsdk-ardupilot-rtl.md) |
 | mavlink/MAVSDK | [Defer a mode-list refresh until the active request completes](https://github.com/mavlink/MAVSDK/pull/3214) | 2026-11-10 | [Read](case-studies/mavsdk-mode-refresh.md) |
 | HSF/phoenix | [Skip saved labels without a target in the current event](https://github.com/HSF/phoenix/pull/1063) | 2026-11-11 | [Read](case-studies/phoenix-missing-label-target.md) |
+| HEPData/hepdata-converter | [Preserve rows with missing values in CSV exports](https://github.com/HEPData/hepdata-converter/pull/72) | 2026-11-11 | [Read](case-studies/hepdata-ragged-csv.md) |
 
 ## What is counted
 
-The seventeen entries above are upstream merges from the campaign beginning 2 October 2026. Open PRs, drafts, closed-unmerged PRs, personal repositories and earlier historical merges are outside this index’s count. Creating or maintaining this portfolio repository adds zero upstream merge credit.
+The eighteen entries above are upstream merges from the campaign beginning 2 October 2026. Open PRs, drafts, closed-unmerged PRs, personal repositories and earlier historical merges are outside this index’s count. Creating or maintaining this portfolio repository adds zero upstream merge credit.
 
 Accepted contributions do not imply employment, project membership or endorsement. Individual PR acceptance does not establish approval of other contributions.
 
-The maintainer-created squash commits for MAVSDK #3213, MAVSDK #3214 and Phoenix #1063 record a different author email from the preferred contribution email. The PRs are attributed to the GitHub account above; the upstream commit metadata is preserved.
+The maintainer-created squash commits for MAVSDK #3213, MAVSDK #3214 and Phoenix #1063 record a different author email from the preferred contribution email. HEPData #72’s contributor commit uses GitHub’s noreply email rather than the preferred address. The PRs are attributed to the GitHub account above; the upstream commit metadata is preserved.
 
 ## Review collaboration
 
@@ -42,7 +43,7 @@ I reported [Dify #43782](https://github.com/langgenius/dify/issues/43782), where
 
 ## Campaign checkpoint
 
-[11 November 2026 status and deadline scenarios](status/2026-11-11.md) · [10 November checkpoint](status/2026-11-10.md)
+[11 November 2026 later checkpoint](status/2026-11-11-hepdata.md) · [Earlier 11 November checkpoint](status/2026-11-11.md) · [10 November checkpoint](status/2026-11-10.md)
 
 ## Verification
 
